@@ -137,6 +137,8 @@ This wills start the application with all dependencies installed, as well as a
 small webserver to serve the static files. You can then reach the running 
 application by visiting the ip address of your docker-machine
 
+Here is a test for jenkins
+
 [1]: https://pip.pypa.io/en/latest/installing/
 [2]: https://docs.python.org/3/using/scripts.html
 [3]: http://dev.mysql.com/doc/refman/5.7/en/installing.html
