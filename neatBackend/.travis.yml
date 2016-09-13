@@ -1,0 +1,15 @@
+sudo: required
+
+language: python3
+
+services:
+  - docker
+env:
+  DOCKER_COMPOSE_VERSION: 1.4.2
+
+before_install:
+  - cd neatBackend
+  - docker-compose up -d --build
+
+script:
+  - sh tests.sh
