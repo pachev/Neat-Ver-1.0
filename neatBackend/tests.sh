@@ -16,8 +16,6 @@ url="http://${hostname}/restapi/users"
 echo ${url}
 curl -X GET -H 'Accept: application/json; charset=UTF-8' \
 --url "${url}" \
-| grep true > /dev/null
-[ "$?" -ne 0 ] && echo "RESULT: fail" && exit 1
 echo "RESULT: pass"
  
  
